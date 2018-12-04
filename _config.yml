@@ -1,5 +1,5 @@
 # Permalinks
-permalink:           pretty
+# permalink:           pretty
 
 # Setup
 title:               Ignacio Carlucho
@@ -27,6 +27,6 @@ github:
   repo:              https://github.com/IgnacioCarlucho/poole
 
 # Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
